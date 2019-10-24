@@ -1,0 +1,20 @@
+@import '../../shared/scss/index.scss';
+
+.content {
+  color: $main-blue;
+  flex: 1;
+  width: 100%;
+  border: 2px solid $blue-light;
+  border-radius: 4px;
+  margin-bottom: 40px;
+
+  ul {
+    list-style: none;
+    font-size: 21px;
+    text-align: left;
+  }
+
+  li {
+    line-height: 1.5em;
+  }
+}

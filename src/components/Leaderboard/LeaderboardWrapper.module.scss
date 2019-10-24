@@ -1,0 +1,36 @@
+@import '../../shared/scss/index.scss';
+
+.content {
+  padding: 40px 0 100px 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  color: $main-blue;
+  margin: calc(2rem - .14285714em) 0 1rem;
+  padding: 0 0;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 1.28571429em;
+}
+
+.link {
+  display: block;
+  height: 57px;
+  width: 233px;
+  color: $gray2;	
+  background:  $main-blue;
+  border-radius: 4px;
+  font: 500 20px/57px Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  text-align: center;
+  padding: 0;
+  border: 0;
+
+  &:hover {
+    color: $white;
+    background: $light-gray;
+  }
+}

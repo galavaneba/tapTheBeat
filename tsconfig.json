@@ -19,7 +19,8 @@
     "noEmit": true,
     "jsx": "react"
   },
+  "noImplicitAny": false,
   "include": [
-    "src"
+    "src", "src/components/ResultsList/.tsx"
   ]
 }

@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+  height: 100vh;
+  background-color: #282c34;
+  overflow: hidden;
+  padding: 40px;
+}
+
+.appHeader {
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #06e6dc;
+  padding-bottom: 35px;
+  border-bottom: 1px solid;
+  cursor: pointer;
+
+  a,
+  a:hover {
+    color: #06e6dc;
+  }
+}
+
+.appLink {
+  color: #09d3ac;
+}

@@ -1,0 +1,75 @@
+@import '../../shared/scss/index.scss';
+
+.content {
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  padding: 40px 0 100px 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.target {
+  font-size: 35px;
+  color: $main-blue;
+  margin: calc(2rem - .14285714em) 0 1rem;
+  padding: 0 0;
+  font-weight: 700;
+  line-height: 1.28571429em;
+}
+
+.timer {
+  color: $pink;
+  font-size: 20px;
+  margin: calc(2rem - .14285714em) 0 1rem;
+}
+
+.link {
+  display: block;
+  height: 57px;
+  width: 233px;
+  font: 500 20px/57px Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  color: $gray2;	
+  background: $main-blue;
+  border-radius: 4px;
+  text-align: center;
+  padding: 0;
+  border: 0;
+
+  &:hover {
+    color: $white;
+    background: $light-gray;
+  }
+}
+
+.score {
+  color: $aliceblue;
+  font-size: 18px;
+
+  p {
+    line-height: 2em;
+    margin-bottom: 20px;
+  }
+}
+
+.controls {
+  display: flex;
+}
+
+.tachpad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 150px;
+  margin: 40px;
+  border-radius: 9px;
+  letter-spacing: 0.2em;
+  background: $aliceblue;
+  box-shadow: 4px 4px rgba(255, 235, 235, 0.28);
+  cursor: pointer;
+
+  &:active {
+    background: $aliceblue2;
+  }
+}

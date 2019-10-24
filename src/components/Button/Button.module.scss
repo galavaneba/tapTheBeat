@@ -1,0 +1,20 @@
+@import '../../shared/scss/index.scss';
+
+.content {
+  display: block;
+  height: 57px;
+  width: 233px;
+  color: $white;	
+  background:  $gray;
+  border-radius: 4px;
+  font: 500 20px/57px Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  text-align: center;
+  padding: 0;
+  border: 0;
+  margin: 0 20px 10px 20px;
+
+  &:hover {
+    color: $white;
+    background: $light-gray;
+  }
+}
